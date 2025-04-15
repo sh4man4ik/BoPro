@@ -17,3 +17,5 @@ The site is written in HTML, CSS and JavaScript. I also used Bootstrap framework
 The site saves all data locally. That is, your data is stored only on your device and only you can access it.
 
 The site is made fully adaptive and looks good on all devices.
+
+I also use Google Analytics to view site stats.
