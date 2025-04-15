@@ -3,7 +3,7 @@ html, body {
     font-family: "Kdam Thmor Pro", sans-serif;
     font-weight: 400;
     font-style: normal;
-    height: 100%;
+    height: auto;
     margin: 0;
     padding: 0;
 }
@@ -56,6 +56,9 @@ html, body {
 }
 #menuList2 {
     width: fit-content;
+}
+#menuList2 i {
+    font-style: normal;
 }
 
 #menuLabelColorScheme {
@@ -322,7 +325,7 @@ main, #notesAll {
     }
 
     #menuText {
-        margin: 60px 17% 0px 17%;
+        margin: 50px 17% 0px 17%;
     }
 
     #todoAll {
