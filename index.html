@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/img/bopro_logo.jpg" type="image/svg+xml">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>BoPro</title>
+</head>
+<body>
+    <header>
+        <div id="header">
+            <h1 id="title" class="display-2"><a href="index.html">BoPro</a></h1>
+            <div id="navbar" class="display-6">
+                <a href="pomodoro.html">Pomodoro</a>
+                <a href="todo.html">To-Do</a>
+                <a id="navbarNotes" href="notes.html">Notes</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div id="menuMain">
+            <div id="menuAbout">
+                <p id="menuText" class="display-4">Want to increase your productivity? Then this site is <span id="menuTextSquare">for you!</span></p>
+                
+                <div id="menuList" class="display-6 d-flex justify-content-center">
+                    <div id="menuList2" class="text-start">
+                        <i class="bi bi-check2"> Pomodoro timer</i><br>
+                        <i class="bi bi-check2"> To-Do list</i><br>
+                        <i class="bi bi-check2"> Notes</i><br>
+                        <i class="bi bi-check2"> No registration</i>
+                    </div>
+                </div>
+            </div>
+
+            <div id="menuColorSchemeWithText">
+                <p id="menuLabelColorScheme" class="display-6">COLOR SCHEME</p>
+                <div id="menuColorScheme" class="d-flex justify-content-center">
+                    <button id="menuButton1" onclick="menuBlackColorScheme()" class="btn btn-primary rounded-circle"></button>
+                    <button id="menuButton2" onclick="menuRedColorScheme()" class="btn btn-primary rounded-circle"></button>
+                    <div>
+                    <button id="menuButton3" onclick="menuBlueColorScheme()" class="btn btn-primary rounded-circle"></button>
+                    <button id="menuButton4" onclick="menuGreenColorScheme()" class="btn btn-primary rounded-circle"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <style>
+            #menuPomodoro, #menuTodo, #menuNotes {
+                color: #9c9c9c;
+            }
+            #menuHome {
+                color: black;
+            }
+        </style>
+        <div id="menuBottom">
+            <i id="menuHome" onclick="location.href='index.html'" class="bi bi-house"></i>
+            <i id="menuPomodoro" onclick="location.href='pomodoro.html'" class="bi bi-clock"></i>
+            <i id="menuTodo" onclick="location.href='todo.html'" class="bi bi-check2-square"></i>
+            <i id="menuNotes" onclick="location.href='notes.html'" class="bi bi-sticky"></i>
+        </div>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
