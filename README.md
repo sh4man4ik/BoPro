@@ -7,7 +7,7 @@ The site is available in 2 types, as a regular site and as a Telegram bot.
 A website in HTML, CSS, and JavaScript to increase productivity.BoPro is a productivity booster site. The site has sections such as:
 
 - Pomodoro timer
-- To-Do sheet
+- To-Do list
 - Text notes
 
 # Technology
