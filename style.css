@@ -235,7 +235,7 @@ main, #notesAll {
     align-items: center;
     justify-content: space-between;
     border-radius: 7px;
-    padding-left: 20px;
+    padding-left: 3px;
     margin-bottom: 25px;
     background-color: #E7E7E7;
 }
@@ -295,7 +295,7 @@ main, #notesAll {
 
 #todoListContainer li span {
     position: absolute;
-    top: 1px;
+    top: 3px;
     width: 35px;
     height: 35px;
     font-size: clamp(18px, 3vw, 24px);
