@@ -4,7 +4,7 @@ The site is available in 2 types, as a regular site and as a Telegram bot.
 - Link to Telegram Bot: https://t.me/boost_productivity_bot
 
 # What is BoPro?
-A website in HTML, CSS, and JavaScript to increase productivity.BoPro is a productivity booster site. The site has sections such as:
+A website in HTML, CSS, and JavaScript to increase productivity. BoPro is a productivity booster site. The site has sections such as:
 
 - Pomodoro timer
 - To-Do list
